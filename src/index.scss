@@ -3,8 +3,7 @@ $primary-color: #F9F7F7;
 $secondary-color: #DBE2EF;
 $third-color: #3F72AF;
 $dark-color: #112D4E;
-$font-size: 16px;
-
+//========================
 
 body {
   background-color: $primary-color;
@@ -13,7 +12,7 @@ body {
 }
 
 /** card **/
-.listgroup{
+  .listgroup{
   position: relative;
   .list-content{
   display: flex;
@@ -27,7 +26,6 @@ body {
     color: $third-color;
     display: flex;
     justify-content: space-between;
-  
   }
   .title{
     color: $dark-color;
@@ -40,6 +38,8 @@ body {
     border-color: transparent;
   }
 }
+
+
 /* navbar */
 .navbar{
 background-color: $dark-color;
@@ -49,16 +49,9 @@ box-shadow: 0 0 10px 5px #aab2c2;
 z-index: 1;
 }
 .nav-container{
-
 font-size: 1.5rem;
 display: flex;
 justify-content: space-between;
-
-a{
-  color: #F9F7F7;
-  margin: 0rem 0.8rem 0rem 0.8rem ;
-  text-decoration: none;
-  }
 
 }
 
@@ -76,7 +69,8 @@ a{
     }
   }
 }
-/* bag*/
+
+/* checkout window */
 .table-cart{
 .cart-content {
   display: flex;
@@ -84,7 +78,6 @@ a{
   color:$third-color;
 }
 }
-
 .btn-total{
   display: flex;
   justify-content: center;
@@ -102,18 +95,9 @@ a{
     &:hover{
       background-color: $dark-color;
       border:  $dark-color;
-
     }
   }
 }
 /*****************/
-   /* footer */
-   footer{
-    background-color: $dark-color;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   }
-/**********************/
+
 
